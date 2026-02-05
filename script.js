@@ -23,8 +23,8 @@ function checkDownload(e) {
 
   if (x >= 0.50 && x <= 0.74 && y >= 0.75 && y <= 0.80) {
     const link = document.createElement("a");
-    link.href = "myfile.pdf";
-    link.download = "myfile.pdf";
+    link.href = "203_3_2025 - Marksheet.pdf"; // updated file name
+    link.download = "203_3_2025 - Marksheet.pdf"; // updated download name
     link.click();
   }
 }

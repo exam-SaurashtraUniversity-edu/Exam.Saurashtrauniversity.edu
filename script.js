@@ -3,22 +3,18 @@ function login() {
   let password = document.getElementById("password").value;
 
   if (email === "A" && password === "s") {
-    window.location.href = "profile.html";
+    window.location.href = "image2.html"; // go to 2nd image (profile)
   } else {
     alert("Wrong email or password");
   }
 }
 
 function goMenu() {
-  window.location.href = "menu.html";
+  window.location.href = "image3.html"; // go to 3rd image (menu)
 }
 
-function openMyPhoto() {
-  window.location.href = "me.html";
-}
-
-function openFatherPhoto() {
-  window.location.href = "father.html";
+function openNextImage(current) {
+  if (current === 4) window.location.href = "image5.html"; // 4th → 5th
 }
 
 function checkDownload(e) {

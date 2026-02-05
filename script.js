@@ -13,13 +13,14 @@ function goMenu() {
   window.location.href = "image3.html";    
 }    
 
-function openNextImage(current) {    
-  if (current === 4) window.location.href = "image5.html";    
-  if (current === 6) window.location.href = "image6.html";    
-  if (current === 7) window.location.href = "image7.html";    
-  if (current === 8) window.location.href = "image8.html";    
-  if (current === 9) window.location.href = "image9.html";    
-}    
+function openNextImage(area) {
+  // area1 → image6, area2 → image7, area3 → image8, area4 → image9, area5 → image5
+  if (area === 1) window.location.href = "image6.html";
+  if (area === 2) window.location.href = "image7.html";
+  if (area === 3) window.location.href = "image8.html";
+  if (area === 4) window.location.href = "image9.html";
+  if (area === 5) window.location.href = "image5.html";
+}
 
 function checkDownload(e) {    
   let x = e.clientX / window.innerWidth;    

@@ -14,10 +14,10 @@ body {
 .father-photo { background-image: url("images/father.jpg"); }
 
 /* INPUTS + BUTTONS */
-input, button { 
-  position: absolute; 
-  background: transparent; 
-  border: none; 
+input, button {
+  position: absolute;
+  background: transparent;
+  border: none;
 }
 
 /* EMAIL */
@@ -60,12 +60,12 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU PAGE → SMALL CLICK AREA (THIS IS IMPORTANT) */
+/* MENU PAGE → SPECIFIC CLICK AREA (50,727 to 97,746) */
 .menu-click {
   position: absolute;
-  top: 220px;
-  left: 12px;
-  width: 40px;
-  height: 15px;
+  left: 50px;
+  top: 727px;
+  width: 47px;   /* 97 - 50 */
+  height: 19px;  /* 746 - 727 */
   cursor: pointer;
 }

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  width: 360px;
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* BACKGROUND IMAGES */
+.login { background-image: url("images/login.jpg"); }
+.profile { background-image: url("images/profile.jpg"); }
+.menu-page { background-image: url("images/menu.jpg"); }
+.me-photo { background-image: url("images/me.jpg"); }
+.father-photo { background-image: url("images/father.jpg"); }
+
+/* INPUTS + BUTTONS */
+input, button { 
+  position: absolute; 
+  background: transparent; 
+  border: none; 
+}
+
+/* EMAIL */
+.email {
+  top: 558px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
+  height: 35px;
+  outline: none;
+}
+
+/* PASSWORD */
+.password {
+  top: 630px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 210px;
+  height: 35px;
+  outline: none;
+}
+
+/* SIGN IN */
+.signin {
+  top: 705px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 217px;
+  height: 33px;
+  cursor: pointer;
+}
+
+/* PROFILE MENU ICON */
+.menu-btn {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  width: 26px;
+  height: 15px;
+  cursor: pointer;
+}
+
+/* MENU PAGE → SMALL CLICK AREA (THIS IS IMPORTANT) */
+.menu-click {
+  position: absolute;
+  top: 220px;
+  left: 12px;
+  width: 40px;
+  height: 15px;
+  cursor: pointer;
+}

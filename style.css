@@ -2,24 +2,22 @@ body {
   margin: 0;
   width: 360px;
   height: 800px;
-  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* BACKGROUNDS */
-.login { background-image: url("images/login.jpg"); }
-.profile { background-image: url("images/profile.jpg"); }
-.menu-page { background-image: url("images/menu.jpg"); }
-.me-photo { background-image: url("images/me.jpg"); }
-.father-photo { background-image: url("images/father.jpg"); }
+/* BACKGROUND IMAGES */
+.image1 { background-image: url("images/image1.jpg"); }
+.image2 { background-image: url("images/image2.jpg"); }
+.image3 { background-image: url("images/image3.jpg"); }
+.image4 { background-image: url("images/image4.jpg"); }
+.image5 { background-image: url("images/image5.jpg"); }
 
-/* ALL CLICKABLE / INPUT AREAS */
-input, button, div {
-  position: absolute;
-  background: transparent;
-  border: none;
-  outline: none;
+/* INPUTS + BUTTONS */
+input, button { 
+  position: absolute; 
+  background: transparent; 
+  border: none; 
 }
 
 /* EMAIL */
@@ -29,6 +27,7 @@ input, button, div {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  outline: none;
 }
 
 /* PASSWORD */
@@ -38,6 +37,7 @@ input, button, div {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  outline: none;
 }
 
 /* SIGN IN */
@@ -50,8 +50,9 @@ input, button, div {
   cursor: pointer;
 }
 
-/* PROFILE MENU BUTTON */
+/* MENU ICON */
 .menu-btn {
+  position: absolute;
   top: 6px;
   left: 10px;
   width: 26px;
@@ -59,11 +60,12 @@ input, button, div {
   cursor: pointer;
 }
 
-/* MENU → MY PHOTO CLICK */
+/* MENU PAGE → SMALL CLICK AREA */
 .menu-click {
-  top: 261px;
-  left: 17px;
-  width: 27px;
-  height: 8px;
+  position: absolute;
+  top: 265px;
+  left: 18px;
+  width: 18px;
+  height: 6px;
   cursor: pointer;
 }

@@ -64,7 +64,7 @@ input, button {
   cursor: pointer;    
 }    
 
-/* MENU PAGE → SMALL CLICK AREA */    
+/ * MENU PAGE → SMALL CLICK AREA */    
 .menu-click {    
   position: absolute;    
   top: 265px;    
@@ -74,49 +74,9 @@ input, button {
   cursor: pointer;    
 }    
 
-/* CLICKABLE AREA ON IMAGE4 (original 5th area) */    
-.image4-click {    
-  position: absolute;    
-  top: 450px;    
-  left: 80%;    
-  width: 45px;    
-  height: 20px;    
-  cursor: pointer;    
-}
-
-/* NEW CLICKABLE AREAS ON IMAGE4 */
-.image4-area1 {
-  position: absolute;
-  top: 205px;
-  left: 90%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.image4-area2 {
-  position: absolute;
-  top: 255px;
-  left: 90%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.image4-area3 {
-  position: absolute;
-  top: 305px;
-  left: 90%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.image4-area4 {
-  position: absolute;
-  top: 370px;
-  left: 90%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
+/* CLICKABLE AREAS ON IMAGE4 */    
+.image4-area1 { position: absolute; top: 205px; left: 90%; width: 33px; height: 15.5px; cursor: pointer; } /* open image6 */    
+.image4-area2 { position: absolute; top: 255px; left: 90%; width: 33px; height: 15.5px; cursor: pointer; } /* open image7 */    
+.image4-area3 { position: absolute; top: 305px; left: 90%; width: 33px; height: 15.5px; cursor: pointer; } /* open image8 */    
+.image4-area4 { position: absolute; top: 370px; left: 90%; width: 33px; height: 15.5px; cursor: pointer; } /* open image9 */    
+.image4-area5 { position: absolute; top: 450px; left: 80%; width: 45px; height: 20px; cursor: pointer; } /* open image5 */

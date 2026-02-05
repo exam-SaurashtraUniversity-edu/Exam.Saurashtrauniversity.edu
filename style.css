@@ -61,9 +61,9 @@ input, button, div {
 
 /* MENU → MY PHOTO CLICK */
 .menu-click {
-  top: 263px;
-  left: 15px;
-  width: 30px;
-  height: 10px;
+  top: 261px;
+  left: 17px;
+  width: 27px;
+  height: 8px;
   cursor: pointer;
 }

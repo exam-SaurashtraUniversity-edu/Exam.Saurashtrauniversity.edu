@@ -2,22 +2,24 @@ body {
   margin: 0;
   width: 360px;
   height: 800px;
+  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-/* BACKGROUND IMAGES */
+/* BACKGROUNDS */
 .login { background-image: url("images/login.jpg"); }
 .profile { background-image: url("images/profile.jpg"); }
 .menu-page { background-image: url("images/menu.jpg"); }
 .me-photo { background-image: url("images/me.jpg"); }
 .father-photo { background-image: url("images/father.jpg"); }
 
-/* INPUTS + BUTTONS */
-input, button {
+/* ALL CLICKABLE / INPUT AREAS */
+input, button, div {
   position: absolute;
   background: transparent;
   border: none;
+  outline: none;
 }
 
 /* EMAIL */
@@ -27,7 +29,6 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
 /* PASSWORD */
@@ -37,7 +38,6 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
 /* SIGN IN */
@@ -50,9 +50,8 @@ input, button {
   cursor: pointer;
 }
 
-/* PROFILE MENU ICON */
+/* PROFILE MENU BUTTON */
 .menu-btn {
-  position: absolute;
   top: 6px;
   left: 10px;
   width: 26px;
@@ -60,12 +59,11 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU PAGE → SPECIFIC CLICK AREA (50,727 to 97,746) */
+/* MENU → MY PHOTO CLICK */
 .menu-click {
-  position: absolute;
-  left: 50px;
-  top: 727px;
-  width: 47px;   /* 97 - 50 */
-  height: 19px;  /* 746 - 727 */
+  top: 220px;
+  left: 12px;
+  width: 40px;
+  height: 15px;
   cursor: pointer;
 }

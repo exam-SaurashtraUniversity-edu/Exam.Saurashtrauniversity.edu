@@ -72,9 +72,9 @@ input, button {
 /* CLICKABLE AREA ON IMAGE4 */
 .image4-click {
   position: absolute;
-  top: 444px;
-  left: 88%;
-  width: 30px;
-  height: 15px;
+  top: 445px;
+  left: 90%;
+  width: 34px;
+  height: 17px;
   cursor: pointer;
 }

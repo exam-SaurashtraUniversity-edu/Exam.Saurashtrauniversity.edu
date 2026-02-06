@@ -16,3 +16,8 @@ function goMenu() {
 function openResult() {
   window.location.href = "image4.html";
 }
+
+/* Open Image5–Image9 */
+function openImage(num) {
+  window.location.href = "image" + num + ".html";
+}

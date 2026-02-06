@@ -18,10 +18,10 @@ body {
 .image9 { background-image: url("images/image9.jpg"); }
 
 /* INPUTS + BUTTONS */
-input, button { 
-  position: absolute; 
-  background: transparent; 
-  border: none; 
+input, button {
+  position: absolute;
+  background: transparent;
+  border: none;
 }
 
 /* EMAIL */
@@ -31,7 +31,6 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
 /* PASSWORD */
@@ -41,7 +40,6 @@ input, button {
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
 /* SIGN IN */
@@ -54,7 +52,7 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU ICON */
+/* MENU BUTTON */
 .menu-btn {
   position: absolute;
   top: 6px;
@@ -64,7 +62,7 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU PAGE → SMALL CLICK AREA */
+/* MENU PAGE CLICK */
 .menu-click {
   position: absolute;
   top: 265px;
@@ -74,10 +72,14 @@ input, button {
   cursor: pointer;
 }
 
-/* IMAGE4 CLICK AREAS */
-.area1 { position: absolute; top: 134px; left: 89.87%; width: 33px; height: 15.5px; cursor: pointer; }
-.area2 { position: absolute; top: 212px; left: 89.87%; width: 33px; height: 15.5px; cursor: pointer; }
-.area3 { position: absolute; top: 290px; left: 89.87%; width: 33px; height: 15.5px; cursor: pointer; }
-.area4 { position: absolute; top: 368px; left: 89.87%; width: 33px; height: 15.5px; cursor: pointer; }
-/* Existing 5th area */
-.area5 { position: absolute; top: 445px; left: 89.87%; width: 34px; height: 16px; cursor: pointer; }
+/* IMAGE4 RESULT CLICK AREAS */
+.area1 { top: 134px; left: 89%; width: 34px; height: 16px; }
+.area2 { top: 212px; left: 89%; width: 34px; height: 16px; }
+.area3 { top: 290px; left: 89%; width: 34px; height: 16px; }
+.area4 { top: 368px; left: 89%; width: 34px; height: 16px; }
+.area5 { top: 445px; left: 89%; width: 34px; height: 16px; }
+
+.area1, .area2, .area3, .area4, .area5 {
+  position: absolute;
+  cursor: pointer;
+}

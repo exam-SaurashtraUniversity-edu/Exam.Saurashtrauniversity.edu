@@ -11,6 +11,11 @@ body {
 .image2 { background-image: url("images/image2.jpg"); }
 .image3 { background-image: url("images/image3.jpg"); }
 .image4 { background-image: url("images/image4.jpg"); }
+.image5 { background-image: url("images/image5.jpg"); }
+.image6 { background-image: url("images/image6.jpg"); }
+.image7 { background-image: url("images/image7.jpg"); }
+.image8 { background-image: url("images/image8.jpg"); }
+.image9 { background-image: url("images/image9.jpg"); }
 
 /* INPUTS + BUTTONS */
 input, button, div {
@@ -19,7 +24,7 @@ input, button, div {
   border: none;
 }
 
-/* EMAIL */
+/* EMAIL INPUT */
 .email {
   top: 558px;
   left: 50%;
@@ -29,7 +34,7 @@ input, button, div {
   outline: none;
 }
 
-/* PASSWORD */
+/* PASSWORD INPUT */
 .password {
   top: 630px;
   left: 50%;
@@ -49,7 +54,7 @@ input, button, div {
   cursor: pointer;
 }
 
-/* MENU ICON (Image2) */
+/* MENU ICON */
 .menu-btn {
   top: 6px;
   left: 10px;
@@ -58,11 +63,58 @@ input, button, div {
   cursor: pointer;
 }
 
-/* MENU CLICK AREA (Image3 → Image4) */
+/* MENU CLICK AREA */
 .menu-click {
   top: 265px;
   left: 18px;
   width: 18px;
   height: 6px;
+  cursor: pointer;
+}
+
+/* CLICK AREAS ON IMAGE4 */
+
+/* Area1 → Image5 */
+.area1 {
+  top: 445px;
+  left: 88.87%;
+  width: 34px;
+  height: 16px;
+  cursor: pointer;
+}
+
+/* Area2 → Image6 */
+.area2 {
+  top: 368px;
+  left: 88.87%;
+  width: 33px;
+  height: 15px;
+  cursor: pointer;
+}
+
+/* Area3 → Image7 */
+.area3 {
+  top: 290px;
+  left: 88.87%;
+  width: 33px;
+  height: 15px;
+  cursor: pointer;
+}
+
+/* Area4 → Image8 */
+.area4 {
+  top: 212px;
+  left: 88.87%;
+  width: 33px;
+  height: 15px;
+  cursor: pointer;
+}
+
+/* Area5 → Image9 */
+.area5 {
+  top: 134px;
+  left: 88.87%;
+  width: 33px;
+  height: 15px;
   cursor: pointer;
 }

@@ -13,20 +13,6 @@ function goMenu() {
   window.location.href = "image3.html";
 }
 
-function openNextImage(area) {
-  switch(area) {
-    case 1: window.location.href = "image6.html"; break;
-    case 2: window.location.href = "image7.html"; break;
-    case 3: window.location.href = "image8.html"; break;
-    case 4: window.location.href = "image9.html"; break;
-    case 5: window.location.href = "image5.html"; break;
-  }
-}
-
-/* PDF Download Function */
-function downloadPDF() {
-  const link = document.createElement("a");
-  link.href = "203_3_2025 - Marksheet.pdf";
-  link.download = "203_3_2025 - Marksheet.pdf";
-  link.click();
+function openResult() {
+  window.location.href = "image4.html";
 }

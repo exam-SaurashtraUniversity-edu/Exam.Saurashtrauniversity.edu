@@ -17,34 +17,32 @@ body {
 .image8 { background-image: url("images/image8.jpg"); }
 .image9 { background-image: url("images/image9.jpg"); }
 
-/* INPUTS + BUTTONS */
+/* INPUTS */
 input, button {
   position: absolute;
   background: transparent;
   border: none;
 }
 
-/* EMAIL INPUT */
+/* EMAIL */
 .email {
   top: 558px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
-/* PASSWORD INPUT */
+/* PASSWORD */
 .password {
   top: 630px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
-  outline: none;
 }
 
-/* SIGN IN BUTTON */
+/* SIGNIN */
 .signin {
   top: 705px;
   left: 50%;
@@ -54,7 +52,7 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU ICON (Image2 Top Left) */
+/* MENU BUTTON */
 .menu-btn {
   position: absolute;
   top: 6px;
@@ -64,7 +62,7 @@ input, button {
   cursor: pointer;
 }
 
-/* MENU CLICK AREA (Image3 Small Area) */
+/* MENU CLICK */
 .menu-click {
   position: absolute;
   top: 265px;
@@ -74,48 +72,9 @@ input, button {
   cursor: pointer;
 }
 
-/* IMAGE4 CLICK AREAS (5 Result Tabs) */
-.area1 {
-  position: absolute;
-  top: 134px;
-  left: 89.87%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.area2 {
-  position: absolute;
-  top: 212px;
-  left: 89.87%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.area3 {
-  position: absolute;
-  top: 290px;
-  left: 89.87%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.area4 {
-  position: absolute;
-  top: 368px;
-  left: 89.87%;
-  width: 33px;
-  height: 15.5px;
-  cursor: pointer;
-}
-
-.area5 {
-  position: absolute;
-  top: 445px;
-  left: 89.87%;
-  width: 34px;
-  height: 16px;
-  cursor: pointer;
-}
+/* IMAGE4 AREAS */
+.area1 { position: absolute; top: 134px; left: 89.87%; width: 33px; height: 15px; cursor: pointer; }
+.area2 { position: absolute; top: 212px; left: 89.87%; width: 33px; height: 15px; cursor: pointer; }
+.area3 { position: absolute; top: 290px; left: 89.87%; width: 33px; height: 15px; cursor: pointer; }
+.area4 { position: absolute; top: 368px; left: 89.87%; width: 33px; height: 15px; cursor: pointer; }
+.area5 { position: absolute; top: 445px; left: 89.87%; width: 34px; height: 16px; cursor: pointer; }

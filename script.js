@@ -13,8 +13,15 @@ function goMenu() {
   window.location.href = "image3.html"; // go to 3rd image (menu)
 }
 
-function openNextImage(current) {
-  if (current === 4) window.location.href = "image5.html"; // 4th → 5th
+// Open next image based on clicked area
+function openNextImage(area) {
+  switch(area) {
+    case 1: window.location.href = "image6.html"; break;
+    case 2: window.location.href = "image7.html"; break;
+    case 3: window.location.href = "image8.html"; break;
+    case 4: window.location.href = "image9.html"; break;
+    case 5: window.location.href = "image5.html"; break;
+  }
 }
 
 function checkDownload(e) {

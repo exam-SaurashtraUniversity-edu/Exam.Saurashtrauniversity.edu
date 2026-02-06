@@ -1,56 +1,45 @@
-html, body {
+body {
   margin: 0;
   width: 360px;
   height: 800px;
-}
-
-/* Background Fix */
-body {
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 
-/* Background Images */
+/* BACKGROUND IMAGES */
 .image1 { background-image: url("images/image1.jpg"); }
 .image2 { background-image: url("images/image2.jpg"); }
 .image3 { background-image: url("images/image3.jpg"); }
 .image4 { background-image: url("images/image4.jpg"); }
 
-/* Cache Fix for Image5 */
-.image5 { background-image: url("images/image5.jpg?v=2"); }
-
-.image6 { background-image: url("images/image6.jpg"); }
-.image7 { background-image: url("images/image7.jpg"); }
-.image8 { background-image: url("images/image8.jpg"); }
-.image9 { background-image: url("images/image9.jpg"); }
-
-/* Inputs */
-input, button {
+/* INPUTS + BUTTONS */
+input, button, div {
   position: absolute;
   background: transparent;
   border: none;
 }
 
-/* Email */
+/* EMAIL */
 .email {
   top: 558px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  outline: none;
 }
 
-/* Password */
+/* PASSWORD */
 .password {
   top: 630px;
   left: 50%;
   transform: translateX(-50%);
   width: 210px;
   height: 35px;
+  outline: none;
 }
 
-/* Sign In */
+/* SIGN IN BUTTON */
 .signin {
   top: 705px;
   left: 50%;
@@ -60,43 +49,20 @@ input, button {
   cursor: pointer;
 }
 
-/* Menu Button */
+/* MENU ICON (Image2) */
 .menu-btn {
   top: 6px;
   left: 10px;
   width: 26px;
   height: 15px;
-  position: absolute;
   cursor: pointer;
 }
 
-/* Menu Click */
+/* MENU CLICK AREA (Image3 → Image4) */
 .menu-click {
   top: 265px;
   left: 18px;
   width: 18px;
   height: 6px;
-  position: absolute;
-  cursor: pointer;
-}
-
-/* Result Areas */
-.area1 { top: 134px; left: 89%; width: 33px; height: 16px; position: absolute; }
-.area2 { top: 212px; left: 89%; width: 33px; height: 16px; position: absolute; }
-.area3 { top: 290px; left: 89%; width: 33px; height: 16px; position: absolute; }
-.area4 { top: 368px; left: 89%; width: 33px; height: 16px; position: absolute; }
-.area5 { top: 445px; left: 89%; width: 33px; height: 16px; position: absolute; }
-
-.area1,.area2,.area3,.area4,.area5 {
-  cursor: pointer;
-}
-
-/* Download Button on Image5 */
-.download-btn {
-  position: absolute;
-  top: 600px;
-  left: 120px;
-  width: 140px;
-  height: 45px;
   cursor: pointer;
 }

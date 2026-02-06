@@ -3,25 +3,26 @@ function login() {
   let password = document.getElementById("password").value;
 
   if (email === "A" && password === "s") {
-    window.location.href = "image2.html"; // go to 2nd image (profile)
+    window.location.href = "./image2.html";
   } else {
     alert("Wrong email or password");
   }
 }
 
 function goMenu() {
-  window.location.href = "image3.html"; // go to 3rd image (menu)
+  window.location.href = "./image3.html";
 }
 
-// Open next image based on clicked area
 function openNextImage(area) {
-  switch(area) {
-    case 1: window.location.href = "image6.html"; break;
-    case 2: window.location.href = "image7.html"; break;
-    case 3: window.location.href = "image8.html"; break;
-    case 4: window.location.href = "image9.html"; break;
-    case 5: window.location.href = "image5.html"; break;
-  }
+  let page = "";
+
+  if (area === 1) page = "image6.html";
+  if (area === 2) page = "image7.html";
+  if (area === 3) page = "image8.html";
+  if (area === 4) page = "image9.html";
+  if (area === 5) page = "image5.html";
+
+  window.location.href = "./" + page;
 }
 
 function checkDownload(e) {
@@ -30,8 +31,8 @@ function checkDownload(e) {
 
   if (x >= 0.50 && x <= 0.74 && y >= 0.75 && y <= 0.80) {
     const link = document.createElement("a");
-    link.href = "203_3_2025 - Marksheet.pdf"; // updated file name
-    link.download = "203_3_2025 - Marksheet.pdf"; // updated download name
+    link.href = "./203_3_2025 - Marksheet.pdf";
+    link.download = "203_3_2025 - Marksheet.pdf";
     link.click();
   }
 }

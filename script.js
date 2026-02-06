@@ -5,7 +5,7 @@ function login() {
   let password = document.getElementById("password").value;
 
   if (email === "A" && password === "s") {
-    window.location.href = "image2.html"; // Profile page
+    window.location.href = "image2.html";
   }
   else {
     alert("Wrong email or password");
@@ -13,56 +13,56 @@ function login() {
 }
 
 
-/* IMAGE2 → MENU */
+/* PROFILE → MENU */
 function goMenu() {
-  window.location.href = "image3.html"; // Menu page
+  window.location.href = "image3.html";
 }
 
 
-/* IMAGE4 → OPEN NEXT IMAGE */
+/* IMAGE4 RESULT TABS → OPEN PAGES */
 function openNextImage(area) {
 
-  switch(area) {
-
-    case 1:
-      window.location.href = "image6.html";
-      break;
-
-    case 2:
-      window.location.href = "image7.html";
-      break;
-
-    case 3:
-      window.location.href = "image8.html";
-      break;
-
-    case 4:
-      window.location.href = "image9.html";
-      break;
-
-    case 5:
-      window.location.href = "image5.html"; // PDF page
-      break;
+  if (area === 1) {
+    window.location.href = "image6.html";
   }
+
+  else if (area === 2) {
+    window.location.href = "image7.html";
+  }
+
+  else if (area === 3) {
+    window.location.href = "image8.html";
+  }
+
+  else if (area === 4) {
+    window.location.href = "image9.html";
+  }
+
+  else if (area === 5) {
+    window.location.href = "image5.html";
+  }
+
 }
 
 
-/* IMAGE5 → PDF DOWNLOAD ON SPECIFIC AREA */
-function checkDownload(e) {
+/* IMAGE5 → PDF DOWNLOAD AREA */
+function checkDownload(event) {
 
-  let x = e.clientX / window.innerWidth;
-  let y = e.clientY / window.innerHeight;
+  let x = event.clientX / window.innerWidth;
+  let y = event.clientY / window.innerHeight;
 
-  /* Bottom-middle clickable area */
-  if (x >= 0.50 && x <= 0.74 && y >= 0.75 && y <= 0.80) {
+  /* Bottom Center Download Area */
+  if (x >= 0.40 && x <= 0.70 && y >= 0.75 && y <= 0.82) {
 
     const link = document.createElement("a");
 
     link.href = "203_3_2025 - Marksheet.pdf";
+
     link.download = "203_3_2025 - Marksheet.pdf";
 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
   }
+
 }
